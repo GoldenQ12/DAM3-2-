@@ -1,0 +1,4 @@
+Nombre de la pelicula: IN TIME
+Entradas: 0
+Sala: 5
+Sesion: 16:45

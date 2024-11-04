@@ -1,0 +1,14 @@
+C:\Users\Aita\source\repos\CineSomo\bin\Debug\CineSomo.exe.config
+C:\Users\Aita\source\repos\CineSomo\bin\Debug\CineSomo.exe
+C:\Users\Aita\source\repos\CineSomo\bin\Debug\CineSomo.pdb
+C:\Users\Aita\source\repos\CineSomo\bin\Debug\CineSomo.xml
+C:\Users\Aita\source\repos\CineSomo\obj\Debug\CineSomo.vbproj.AssemblyReference.cache
+C:\Users\Aita\source\repos\CineSomo\obj\Debug\CineSomo.Form1.resources
+C:\Users\Aita\source\repos\CineSomo\obj\Debug\CineSomo.Form2.resources
+C:\Users\Aita\source\repos\CineSomo\obj\Debug\CineSomo.Resources.resources
+C:\Users\Aita\source\repos\CineSomo\obj\Debug\CineSomo.vbproj.GenerateResource.cache
+C:\Users\Aita\source\repos\CineSomo\obj\Debug\CineSomo.vbproj.CoreCompileInputs.cache
+C:\Users\Aita\source\repos\CineSomo\obj\Debug\CineSomo.exe
+C:\Users\Aita\source\repos\CineSomo\obj\Debug\CineSomo.xml
+C:\Users\Aita\source\repos\CineSomo\obj\Debug\CineSomo.pdb
+C:\Users\Aita\source\repos\CineSomo\obj\Debug\CineSomo.Form3.resources
