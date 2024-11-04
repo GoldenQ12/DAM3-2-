@@ -38,7 +38,7 @@ Partial Class Form2
         Me.Panel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel1.Location = New System.Drawing.Point(453, 48)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(257, 278)
+        Me.Panel1.Size = New System.Drawing.Size(335, 335)
         Me.Panel1.TabIndex = 0
         '
         'lblInfo

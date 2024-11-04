@@ -2,7 +2,12 @@
 
     Public Property pelicula As Pelicula = New Pelicula()
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub BtnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
+        Me.Close()
+    End Sub
+
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
         pelicula.Nombre = lbl1.Text
         pelicula.Director = "Jose Luis"
         pelicula.Actores = {"Pedro", "Jimena", "Jose"}
@@ -12,7 +17,7 @@
         Form2.Show()
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
         pelicula.Nombre = lbl2.Text
         pelicula.Director = "Jon Ander"
         pelicula.Actores = {"Iker", "Haimar"}
@@ -22,7 +27,7 @@
         Form2.Show()
     End Sub
 
-    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
         pelicula.Nombre = lbl3.Text
         pelicula.Director = "Alex Garai"
         pelicula.Actores = {"Angel", "Erlantz", "Lander", "Ivan"}
@@ -33,18 +38,6 @@
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
-
-    Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
-        Me.Close()
-    End Sub
-
-    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
-
-    End Sub
-
-    Private Sub FlowLayoutPanel1_Paint(sender As Object, e As PaintEventArgs) Handles FlowLayoutPanel1.Paint
-
+        Me.CenterToScreen()
     End Sub
 End Class

@@ -3,6 +3,7 @@
     Public Property hora As String
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.CenterToScreen()
         lblInfo.Text = Form1.pelicula.ToString()
     End Sub
 

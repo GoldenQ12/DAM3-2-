@@ -12,3 +12,17 @@ C:\Users\Aita\source\repos\CineSomo\obj\Debug\CineSomo.exe
 C:\Users\Aita\source\repos\CineSomo\obj\Debug\CineSomo.xml
 C:\Users\Aita\source\repos\CineSomo\obj\Debug\CineSomo.pdb
 C:\Users\Aita\source\repos\CineSomo\obj\Debug\CineSomo.Form3.resources
+D:\GitHubDam3\DAM3-2\Examen Test\CineSomo\bin\Debug\CineSomo.exe.config
+D:\GitHubDam3\DAM3-2\Examen Test\CineSomo\bin\Debug\CineSomo.exe
+D:\GitHubDam3\DAM3-2\Examen Test\CineSomo\bin\Debug\CineSomo.pdb
+D:\GitHubDam3\DAM3-2\Examen Test\CineSomo\bin\Debug\CineSomo.xml
+D:\GitHubDam3\DAM3-2\Examen Test\CineSomo\obj\Debug\CineSomo.vbproj.AssemblyReference.cache
+D:\GitHubDam3\DAM3-2\Examen Test\CineSomo\obj\Debug\CineSomo.Form1.resources
+D:\GitHubDam3\DAM3-2\Examen Test\CineSomo\obj\Debug\CineSomo.Form2.resources
+D:\GitHubDam3\DAM3-2\Examen Test\CineSomo\obj\Debug\CineSomo.Form3.resources
+D:\GitHubDam3\DAM3-2\Examen Test\CineSomo\obj\Debug\CineSomo.Resources.resources
+D:\GitHubDam3\DAM3-2\Examen Test\CineSomo\obj\Debug\CineSomo.vbproj.GenerateResource.cache
+D:\GitHubDam3\DAM3-2\Examen Test\CineSomo\obj\Debug\CineSomo.vbproj.CoreCompileInputs.cache
+D:\GitHubDam3\DAM3-2\Examen Test\CineSomo\obj\Debug\CineSomo.exe
+D:\GitHubDam3\DAM3-2\Examen Test\CineSomo\obj\Debug\CineSomo.xml
+D:\GitHubDam3\DAM3-2\Examen Test\CineSomo\obj\Debug\CineSomo.pdb
