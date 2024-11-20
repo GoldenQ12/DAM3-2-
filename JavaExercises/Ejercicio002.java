@@ -13,7 +13,7 @@ class SimpleThread1 extends Thread {
 		System.out.println("Fin!" + getName());
 		}
 	}
-public class Ejercicio02{
+public class Ejercicio002{
 	public static void main (String[] args) 
 	{
 	SimpleThread1 hilo1 = new SimpleThread1 ("Hilo1"); 

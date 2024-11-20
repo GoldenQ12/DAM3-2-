@@ -43,7 +43,7 @@ class ContadorHilo extends Thread {
     }
 }
 
-public class Ejercicio09{
+public class Ejercicio009{
     public static void main(String[] args) {
         Contador cont = new Contador();
         ContadorHilo hilo1 = new ContadorHilo("Hilo1", cont);

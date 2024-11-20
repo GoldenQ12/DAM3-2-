@@ -1,5 +1,5 @@
 
-public class Ejercicio01 {
+public class Ejercicio001 {
 
 	public static void main(String[] argv) {
         SimpleThread1 hilo1= new SimpleThread1("Hilos1");

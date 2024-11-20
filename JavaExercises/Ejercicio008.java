@@ -1,5 +1,5 @@
 
-public class Ejercicio08 {
+public class Ejercicio008 {
 
 	public static void main (String [] args) {
 		Contador cont = new Contador();

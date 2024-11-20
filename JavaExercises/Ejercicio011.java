@@ -1,6 +1,5 @@
-package packageJavaPSP;
 
-public class Ejercicio11 {
+public class Ejercicio011 {
 	public static void main ( String[] args ) {
 		SimpleThread thread1 = new SimpleThread("pares");
 		SimpleThread thread2 = new SimpleThread("impares");

@@ -14,7 +14,7 @@ class ThreadsJoin extends Thread {
 	}
 }
 
-public class Ejercicio07 {
+public class Ejercicio007 {
 	public static void main (String [] args) {
 		System.out.println("Inicio - main");
 		ThreadsJoin hilo1 = new ThreadsJoin("Hilo1");

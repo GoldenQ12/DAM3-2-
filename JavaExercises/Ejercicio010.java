@@ -1,4 +1,3 @@
-package packageJavaPSP;
 
 class Animal extends Thread {
 	String nombre;
@@ -11,7 +10,7 @@ class Animal extends Thread {
 	public void run () {
 		for ( int i= 0; i < 30; i++) {
 			System.out.print( nombre );
-			yield();
+			Thread.yield();
 		}
 		System.out.println("\n Llega" + nombre + "\n");
 	}

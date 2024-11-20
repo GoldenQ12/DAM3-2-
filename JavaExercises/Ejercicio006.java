@@ -17,7 +17,7 @@ class SimpleThread3 extends Thread{
     }
 }
 
-public class Ejercicio06 {
+public class Ejercicio006 {
 
     public static void main(String[] args) {
         SimpleThread3 hilo1 = new SimpleThread3("Hilo1");

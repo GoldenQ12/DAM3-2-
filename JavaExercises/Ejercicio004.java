@@ -1,5 +1,5 @@
 
-public class Ejercicio04 {
+public class Ejercicio004 {
 	public static void main (String [] args) {
 		SimpleThreadRunnable hilo1 = new SimpleThreadRunnable("Hilo1");
 		SimpleThreadRunnable hilo2 = new SimpleThreadRunnable("Hilo2");
