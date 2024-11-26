@@ -8,12 +8,16 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.JTextField;
 import javax.swing.JButton;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+
 import java.awt.event.ActionListener;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.awt.event.ActionEvent;
+import java.awt.Font;
+import javax.swing.SwingConstants;
 
 public class DBPrueba extends JFrame {
 
@@ -55,22 +59,23 @@ public class DBPrueba extends JFrame {
 		contentPane.setLayout(null);
 		
 		txtDesc = new JTextField();
-		txtDesc.setBounds(149, 62, 156, 31);
+		txtDesc.setBounds(118, 62, 156, 31);
 		contentPane.add(txtDesc);
 		txtDesc.setColumns(10);
 		
 		txtPrecio = new JTextField();
 		txtPrecio.setColumns(10);
-		txtPrecio.setBounds(149, 104, 156, 31);
+		txtPrecio.setBounds(118, 104, 156, 31);
 		contentPane.add(txtPrecio);
 		
 		txtCod = new JTextField();
 		txtCod.setColumns(10);
-		txtCod.setBounds(149, 151, 156, 31);
+		txtCod.setBounds(118, 151, 156, 31);
 		contentPane.add(txtCod);
 		
-		JButton btnNewButton = new JButton("Consulta por código");
-		btnNewButton.addActionListener(new ActionListener() {
+		JButton btnConsulta = new JButton("Consulta por código");
+		btnConsulta.setFont(new Font("Tahoma", Font.PLAIN, 18));
+		btnConsulta.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				try {
 					Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost/bd_empresa", "root", "");
@@ -88,33 +93,49 @@ public class DBPrueba extends JFrame {
 				
 			}
 		});
-		btnNewButton.setBounds(10, 193, 127, 23);
-		contentPane.add(btnNewButton);
+		btnConsulta.setBounds(10, 193, 264, 57);
+		contentPane.add(btnConsulta);
 		
-		JButton btnNewButton_1 = new JButton("Alta");
-		btnNewButton_1.addActionListener(new ActionListener() {
+		JButton btnAlta = new JButton("Alta");
+		btnAlta.setFont(new Font("Tahoma", Font.PLAIN, 18));
+		btnAlta.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				
+				try {
+					Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost/bd_empresa", "root", "");
+					Statement sentencia = conexion.createStatement();
+					String sql = "INSERT INTO articulos (descripcion, precio) VALUES ('" + 
+				             txtDesc.getText().replace("'", "''") + "', " + 
+				             Double.parseDouble(txtPrecio.getText()) + ")";
+					sentencia.execute(sql);
+					JOptionPane.showConfirmDialog(null, "Agregado correctamente", "Agregado correctamente", JOptionPane.DEFAULT_OPTION);
+				} catch (Exception ex) {
+					setTitle(ex.toString());
+				}
 			}
 		});
-		btnNewButton_1.setBounds(149, 193, 89, 23);
-		contentPane.add(btnNewButton_1);
+		btnAlta.setBounds(284, 193, 140, 57);
+		contentPane.add(btnAlta);
 		
-		JLabel lblNewLabel = new JLabel("Resultado");
-		lblNewLabel.setBounds(235, 227, 189, 23);
-		contentPane.add(lblNewLabel);
-		
-		lblDescripcionDelArtiuclo = new JLabel("Descripcion del artiuclo");
-		lblDescripcionDelArtiuclo.setBounds(10, 66, 129, 23);
+		lblDescripcionDelArtiuclo = new JLabel("Descripción:");
+		lblDescripcionDelArtiuclo.setFont(new Font("Tahoma", Font.PLAIN, 18));
+		lblDescripcionDelArtiuclo.setBounds(10, 66, 156, 23);
 		contentPane.add(lblDescripcionDelArtiuclo);
 		
-		lblNewLabel_2 = new JLabel("Precio");
+		lblNewLabel_2 = new JLabel("Precio:");
+		lblNewLabel_2.setFont(new Font("Tahoma", Font.PLAIN, 18));
 		lblNewLabel_2.setBounds(10, 112, 97, 23);
 		contentPane.add(lblNewLabel_2);
 		
-		lblNewLabel_3 = new JLabel("Codigo");
+		lblNewLabel_3 = new JLabel("Codigo:");
+		lblNewLabel_3.setFont(new Font("Tahoma", Font.PLAIN, 18));
 		lblNewLabel_3.setBounds(10, 159, 97, 23);
 		contentPane.add(lblNewLabel_3);
+		
+		JLabel lblArticulosDemo = new JLabel("ARTICULOS DEMO");
+		lblArticulosDemo.setHorizontalAlignment(SwingConstants.CENTER);
+		lblArticulosDemo.setFont(new Font("Tahoma", Font.BOLD | Font.ITALIC, 24));
+		lblArticulosDemo.setBounds(10, 11, 414, 40);
+		contentPane.add(lblArticulosDemo);
 		
 		cargarDriver();
 	}
