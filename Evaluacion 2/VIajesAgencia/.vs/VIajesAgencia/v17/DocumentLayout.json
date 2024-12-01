@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHubDam3\\DAM3-2\\Evaluacion 2\\VIajesAgencia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|d:\\githubdam3\\dam3-2\\evaluacion 2\\viajesagencia\\viajesagencia\\viajesregistros.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|solutionrelative:viajesagencia\\viajesregistros.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|d:\\githubdam3\\dam3-2\\evaluacion 2\\viajesagencia\\viajesagencia\\viajesregistros.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|solutionrelative:viajesagencia\\viajesregistros.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|d:\\githubdam3\\dam3-2\\evaluacion 2\\viajesagencia\\viajesagencia\\destinos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|solutionrelative:viajesagencia\\destinos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|d:\\githubdam3\\dam3-2\\evaluacion 2\\viajesagencia\\viajesagencia\\destinos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|solutionrelative:viajesagencia\\destinos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|d:\\githubdam3\\dam3-2\\evaluacion 2\\viajesagencia\\viajesagencia\\viajes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|solutionrelative:viajesagencia\\viajes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Destinos.vb",
+              "DocumentMoniker": "D:\\GitHubDam3\\DAM3-2\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\Destinos.vb",
+              "RelativeDocumentMoniker": "VIajesAgencia\\Destinos.vb",
+              "ToolTip": "D:\\GitHubDam3\\DAM3-2\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\Destinos.vb",
+              "RelativeToolTip": "VIajesAgencia\\Destinos.vb",
+              "ViewState": "AQIAACMAAAAAAAAAAAAIwCwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-01T23:17:05.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Viajes.vb [Design]",
+              "DocumentMoniker": "D:\\GitHubDam3\\DAM3-2\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\Viajes.vb",
+              "RelativeDocumentMoniker": "VIajesAgencia\\Viajes.vb",
+              "ToolTip": "D:\\GitHubDam3\\DAM3-2\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\Viajes.vb [Design]",
+              "RelativeToolTip": "VIajesAgencia\\Viajes.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-01T23:17:00.444Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Destinos.vb [Design]",
+              "DocumentMoniker": "D:\\GitHubDam3\\DAM3-2\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\Destinos.vb",
+              "RelativeDocumentMoniker": "VIajesAgencia\\Destinos.vb",
+              "ToolTip": "D:\\GitHubDam3\\DAM3-2\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\Destinos.vb [Design]",
+              "RelativeToolTip": "VIajesAgencia\\Destinos.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-01T23:16:59.777Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViajesRegistros.vb",
+              "DocumentMoniker": "D:\\GitHubDam3\\DAM3-2\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\ViajesRegistros.vb",
+              "RelativeDocumentMoniker": "VIajesAgencia\\ViajesRegistros.vb",
+              "ToolTip": "D:\\GitHubDam3\\DAM3-2\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\ViajesRegistros.vb",
+              "RelativeToolTip": "VIajesAgencia\\ViajesRegistros.vb",
+              "ViewState": "AQIAACwAAAAAAAAAAAAwwFUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-01T23:04:19.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViajesRegistros.vb [Design]",
+              "DocumentMoniker": "D:\\GitHubDam3\\DAM3-2\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\ViajesRegistros.vb",
+              "RelativeDocumentMoniker": "VIajesAgencia\\ViajesRegistros.vb",
+              "ToolTip": "D:\\GitHubDam3\\DAM3-2\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\ViajesRegistros.vb [Design]",
+              "RelativeToolTip": "VIajesAgencia\\ViajesRegistros.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-01T23:04:07.544Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

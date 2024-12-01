@@ -1,0 +1,15 @@
+D:\GitHubDam3\DAM3-2\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.vbproj.AssemblyReference.cache
+D:\GitHubDam3\DAM3-2\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.Resources.resources
+D:\GitHubDam3\DAM3-2\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.vbproj.GenerateResource.cache
+D:\GitHubDam3\DAM3-2\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.vbproj.CoreCompileInputs.cache
+D:\GitHubDam3\DAM3-2\Evaluacion 2\VIajesAgencia\VIajesAgencia\bin\Debug\VIajesAgencia.exe.config
+D:\GitHubDam3\DAM3-2\Evaluacion 2\VIajesAgencia\VIajesAgencia\bin\Debug\VIajesAgencia.exe
+D:\GitHubDam3\DAM3-2\Evaluacion 2\VIajesAgencia\VIajesAgencia\bin\Debug\VIajesAgencia.pdb
+D:\GitHubDam3\DAM3-2\Evaluacion 2\VIajesAgencia\VIajesAgencia\bin\Debug\VIajesAgencia.xml
+D:\GitHubDam3\DAM3-2\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.exe
+D:\GitHubDam3\DAM3-2\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.xml
+D:\GitHubDam3\DAM3-2\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.pdb
+D:\GitHubDam3\DAM3-2\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.Viajes.resources
+D:\GitHubDam3\DAM3-2\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.Clientes.resources
+D:\GitHubDam3\DAM3-2\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.Destinos.resources
+D:\GitHubDam3\DAM3-2\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.ViajesRegistros.resources
