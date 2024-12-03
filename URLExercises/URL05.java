@@ -7,7 +7,7 @@ import java.net.*;
 import java.util.Scanner;
 
 
-public class URL04{
+public class URL05{
     @SuppressWarnings("deprecation")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -15,11 +15,12 @@ public class URL04{
         
 
         try{
-            URL u = new URL("https://imageupscaler.com/wp-content/uploads/2024/07/deblured-cutty-fox.jpg");
+            URL u = new URL("https://miro.medium.com/v2/resize:fit:3840/1*gg9qXBTGLI27Q-KapHIrHQ.gif");
             URLConnection uc = u.openConnection();
             String ct = uc.getContentType();
             int cl = uc.getContentLength();
 
+            System.out.println(ct);
             if (ct.startsWith("/text") || cl == -1) {
                 System.out.println("Tipo texto");
                 sc.close();
@@ -31,6 +32,15 @@ public class URL04{
 
             String file = u.getFile();
             file = file.substring(file.lastIndexOf('/')+1);
+            
+            if (ct.endsWith("/jpeg")) {
+                System.out.println("JPEG: " + u.getFile());
+            } else if (ct.endsWith("/png")) {
+                System.out.println("Fecha mod: " + new java.util.Date(uc.getDate()));
+            } else if (ct.endsWith("/gif")) {
+                System.out.println("Tamaño: " + uc.getContentLength());
+            }
+
 
             FileOutputStream fout = new FileOutputStream(file);
             BufferedOutputStream out = new BufferedOutputStream(fout);
