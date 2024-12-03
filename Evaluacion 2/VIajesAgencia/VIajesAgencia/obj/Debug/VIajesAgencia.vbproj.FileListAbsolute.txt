@@ -13,3 +13,19 @@ D:\GitHubDam3\DAM3-2\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAg
 D:\GitHubDam3\DAM3-2\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.Clientes.resources
 D:\GitHubDam3\DAM3-2\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.Destinos.resources
 D:\GitHubDam3\DAM3-2\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.ViajesRegistros.resources
+C:\Users\Aita\Downloads\DAM3-2--AAD-Acceso-A-Datos (1)\DAM3-2--AAD-Acceso-A-Datos\Evaluacion 2\VIajesAgencia\VIajesAgencia\bin\Debug\VIajesAgencia.exe.config
+C:\Users\Aita\Downloads\DAM3-2--AAD-Acceso-A-Datos (1)\DAM3-2--AAD-Acceso-A-Datos\Evaluacion 2\VIajesAgencia\VIajesAgencia\bin\Debug\VIajesAgencia.exe
+C:\Users\Aita\Downloads\DAM3-2--AAD-Acceso-A-Datos (1)\DAM3-2--AAD-Acceso-A-Datos\Evaluacion 2\VIajesAgencia\VIajesAgencia\bin\Debug\VIajesAgencia.pdb
+C:\Users\Aita\Downloads\DAM3-2--AAD-Acceso-A-Datos (1)\DAM3-2--AAD-Acceso-A-Datos\Evaluacion 2\VIajesAgencia\VIajesAgencia\bin\Debug\VIajesAgencia.xml
+C:\Users\Aita\Downloads\DAM3-2--AAD-Acceso-A-Datos (1)\DAM3-2--AAD-Acceso-A-Datos\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.vbproj.AssemblyReference.cache
+C:\Users\Aita\Downloads\DAM3-2--AAD-Acceso-A-Datos (1)\DAM3-2--AAD-Acceso-A-Datos\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.Clientes.resources
+C:\Users\Aita\Downloads\DAM3-2--AAD-Acceso-A-Datos (1)\DAM3-2--AAD-Acceso-A-Datos\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.Destinos.resources
+C:\Users\Aita\Downloads\DAM3-2--AAD-Acceso-A-Datos (1)\DAM3-2--AAD-Acceso-A-Datos\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.Resources.resources
+C:\Users\Aita\Downloads\DAM3-2--AAD-Acceso-A-Datos (1)\DAM3-2--AAD-Acceso-A-Datos\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.Viajes.resources
+C:\Users\Aita\Downloads\DAM3-2--AAD-Acceso-A-Datos (1)\DAM3-2--AAD-Acceso-A-Datos\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.ViajesRegistros.resources
+C:\Users\Aita\Downloads\DAM3-2--AAD-Acceso-A-Datos (1)\DAM3-2--AAD-Acceso-A-Datos\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.vbproj.GenerateResource.cache
+C:\Users\Aita\Downloads\DAM3-2--AAD-Acceso-A-Datos (1)\DAM3-2--AAD-Acceso-A-Datos\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.vbproj.CoreCompileInputs.cache
+C:\Users\Aita\Downloads\DAM3-2--AAD-Acceso-A-Datos (1)\DAM3-2--AAD-Acceso-A-Datos\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.exe
+C:\Users\Aita\Downloads\DAM3-2--AAD-Acceso-A-Datos (1)\DAM3-2--AAD-Acceso-A-Datos\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.xml
+C:\Users\Aita\Downloads\DAM3-2--AAD-Acceso-A-Datos (1)\DAM3-2--AAD-Acceso-A-Datos\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.pdb
+C:\Users\Aita\Downloads\DAM3-2--AAD-Acceso-A-Datos (1)\DAM3-2--AAD-Acceso-A-Datos\Evaluacion 2\VIajesAgencia\VIajesAgencia\obj\Debug\VIajesAgencia.ViajesPorNombre.resources

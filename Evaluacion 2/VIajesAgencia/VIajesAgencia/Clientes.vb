@@ -34,7 +34,7 @@ Public Class Clientes
                 For Each cliente As String In clienteData
                     If Not String.IsNullOrWhiteSpace(cliente) Then
                         Dim fields As String() = cliente.Split("€")
-                        dt.Rows.Add(fields(0), fields(1), fields(2), fields(3))
+                        dt.Rows.Add(fields(0), fields(1), fields(2), fields(3) + " €")
                     End If
                 Next
             Next
@@ -50,6 +50,10 @@ Public Class Clientes
         If ComprobarValidaciones() Then
             AddCliente()
             MessageBox.Show("Cliente agregado correctamente")
+            txtApellido.Text = ""
+            txtNombre.Text = ""
+            txtNumero.Text = ""
+            txtPrecio.Text = ""
             LoadData()
         End If
     End Sub
@@ -71,6 +75,23 @@ Public Class Clientes
             MessageBox.Show("El precio solo puede contener numeros de 0 a 9")
             Return False
         End If
+
+        Try
+            If Not File.Exists(filePath) Then
+                MessageBox.Show("El fichero no existe.")
+                Return False
+            End If
+
+            Dim lineas As List(Of String) = File.ReadAllLines(filePath).ToList()
+            For Each linea As String In lineas
+                If linea.StartsWith(txtNombre.Text) Then
+                    MessageBox.Show("El nombre solicitado ya existe")
+                    Return False
+                End If
+            Next
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
         Return True
     End Function
 

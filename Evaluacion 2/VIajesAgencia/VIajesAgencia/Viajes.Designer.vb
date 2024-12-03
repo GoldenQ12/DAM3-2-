@@ -27,6 +27,7 @@ Partial Class Viajes
         Me.btnDestinos = New System.Windows.Forms.Button()
         Me.btnViajes = New System.Windows.Forms.Button()
         Me.btnBack = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.FlowLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -91,11 +92,23 @@ Partial Class Viajes
         Me.btnBack.Text = "CERRAR"
         Me.btnBack.UseVisualStyleBackColor = True
         '
+        'Button1
+        '
+        Me.Button1.AutoSize = True
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(619, 716)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(416, 147)
+        Me.Button1.TabIndex = 14
+        Me.Button1.Text = "GESTIONAR DESTINOS"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Viajes
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1584, 985)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Name = "Viajes"
@@ -111,4 +124,5 @@ Partial Class Viajes
     Friend WithEvents btnDestinos As Button
     Friend WithEvents btnViajes As Button
     Friend WithEvents btnBack As Button
+    Friend WithEvents Button1 As Button
 End Class

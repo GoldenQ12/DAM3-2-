@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class ViajesRegistros
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class ViajesRegistros
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.listBoxDestinos = New System.Windows.Forms.ListBox()
         Me.listBoxClientes = New System.Windows.Forms.ListBox()
@@ -37,7 +37,7 @@ Partial Class ViajesRegistros
         Me.listBoxDestinos.ItemHeight = 25
         Me.listBoxDestinos.Location = New System.Drawing.Point(393, 240)
         Me.listBoxDestinos.Name = "listBoxDestinos"
-        Me.listBoxDestinos.Size = New System.Drawing.Size(376, 79)
+        Me.listBoxDestinos.Size = New System.Drawing.Size(376, 129)
         Me.listBoxDestinos.TabIndex = 0
         '
         'listBoxClientes
@@ -47,7 +47,7 @@ Partial Class ViajesRegistros
         Me.listBoxClientes.ItemHeight = 25
         Me.listBoxClientes.Location = New System.Drawing.Point(833, 240)
         Me.listBoxClientes.Name = "listBoxClientes"
-        Me.listBoxClientes.Size = New System.Drawing.Size(376, 79)
+        Me.listBoxClientes.Size = New System.Drawing.Size(376, 129)
         Me.listBoxClientes.TabIndex = 1
         '
         'Label6
@@ -65,7 +65,7 @@ Partial Class ViajesRegistros
         'calendar
         '
         Me.calendar.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.calendar.Location = New System.Drawing.Point(714, 537)
+        Me.calendar.Location = New System.Drawing.Point(721, 546)
         Me.calendar.MinDate = New Date(2024, 12, 2, 0, 0, 0, 0)
         Me.calendar.Name = "calendar"
         Me.calendar.TabIndex = 11
@@ -85,11 +85,11 @@ Partial Class ViajesRegistros
         '
         Me.Button1.AutoSize = True
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(699, 720)
+        Me.Button1.Location = New System.Drawing.Point(650, 720)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(235, 60)
+        Me.Button1.Size = New System.Drawing.Size(327, 60)
         Me.Button1.TabIndex = 14
-        Me.Button1.Text = "GUARDAR VIAJE"
+        Me.Button1.Text = "GUARDAR"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'ViajesRegistros

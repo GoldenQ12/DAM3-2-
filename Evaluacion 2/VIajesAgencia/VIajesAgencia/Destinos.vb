@@ -26,6 +26,8 @@ Public Class Destinos
         If RealizarComprobaciones() Then
             AddDestino()
             MessageBox.Show("Destino agregado corretamente")
+            txtDestino.Text = ""
+            txtGuia.Text = ""
             LoadDestinos()
         End If
     End Sub

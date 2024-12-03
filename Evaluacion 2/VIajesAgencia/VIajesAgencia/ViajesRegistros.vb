@@ -1,8 +1,9 @@
 ﻿Imports System.IO
 
 Public Class ViajesRegistros
-    Dim filePath As String = "viaje.txt"
+    Dim filePath As String = ""
     Private Sub ViajesRegistros_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.CenterToScreen()
         LoadData()
     End Sub
 
@@ -16,7 +17,6 @@ Public Class ViajesRegistros
 
         Try
             LoadDestinos(destinosFilePath)
-
             LoadClientes(clientesFilePath)
 
         Catch ex As Exception
@@ -61,7 +61,6 @@ Public Class ViajesRegistros
 
                     Dim fullName As String = $"{firstName} {secondName}"
                     listBoxClientes.Items.Add(fullName)
-
                 End If
             End While
         End Using
@@ -73,24 +72,56 @@ Public Class ViajesRegistros
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        SaveTravel()
+
+
+        SaveTravelAs()
+        MessageBox.Show("Guardado correctamente")
     End Sub
 
-    Public Sub SaveTravel()
+    Public Sub SaveTravelAs()
+        Dim destino As String = listBoxDestinos.SelectedItem
+        Dim cliente As String = listBoxClientes.SelectedItem
+        Dim fecha As String = calendar.SelectionStart.ToShortDateString
+
+        Dim destinoCompleto As String = $"{cliente}-{destino}-{fecha}#"
+
         Try
-            Dim destino As String = listBoxDestinos.SelectedItem
-            Dim cliente As String = listBoxClientes.SelectedItem
-            Dim fecha As String = calendar.SelectionStart.ToShortDateString
+            If destino.Equals("") Or cliente.Equals("") Then
+                MessageBox.Show("Por favor, seleccione todos los campos")
+            Else
+                Dim saveFileDialog As New SaveFileDialog()
+                filePath = saveFileDialog.FileName
 
-            Dim destinoCompleto As String = $"{cliente}-{destino}-{fecha}#"
+                saveFileDialog.Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*"
+                saveFileDialog.Title = "Guardar como"
+                If saveFileDialog.ShowDialog() = DialogResult.OK Then
+                    Using writer As New StreamWriter(saveFileDialog.FileName, True)
+                        writer.WriteLine(destinoCompleto)
+                    End Using
+                End If
+            End If
 
-            Using writer As New StreamWriter(filePath, True)
-                writer.WriteLine(destinoCompleto)
-            End Using
         Catch ex As Exception
             MessageBox.Show("Error: " + ex.Message)
         End Try
     End Sub
 
+    Private Sub BtnSelect_Click(sender As Object, e As EventArgs)
+        SaveTravel()
+        MessageBox.Show("Guardado correctamente")
+    End Sub
 
+    Public Sub SaveTravel()
+        Dim destino As String = listBoxDestinos.SelectedItem
+        Dim cliente As String = listBoxClientes.SelectedItem
+        Dim fecha As String = calendar.SelectionStart.ToShortDateString
+
+        Dim destinoCompleto As String = $"{cliente}-{destino}-{fecha}#"
+
+        Try
+            File.AppendAllText(filePath, destinoCompleto)
+        Catch ex As Exception
+            MessageBox.Show("Error: " + ex.Message)
+        End Try
+    End Sub
 End Class
