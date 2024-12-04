@@ -90,7 +90,7 @@ Public Class Destinos
         End Try
     End Sub
 
-    Private Sub DataGridViewDestinos_CellContentClick(sender As Object, e As DataGridViewCellEventArgs)
+    Private Sub DataGridViewDestinos_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
         If e.ColumnIndex = DataGridView1.Columns("Delete").Index Then
             Dim result As DialogResult = MessageBox.Show("Estas seguro que quieres eliminar este destino?", "Confirmation", MessageBoxButtons.YesNo)
             If result = DialogResult.Yes Then
@@ -124,4 +124,5 @@ Public Class Destinos
         Me.Close()
         Viajes.Show()
     End Sub
+
 End Class

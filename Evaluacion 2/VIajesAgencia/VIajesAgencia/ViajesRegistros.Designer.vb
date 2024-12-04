@@ -25,14 +25,16 @@ Partial Class ViajesRegistros
         Me.listBoxDestinos = New System.Windows.Forms.ListBox()
         Me.listBoxClientes = New System.Windows.Forms.ListBox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.calendar = New System.Windows.Forms.MonthCalendar()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.calendar = New System.Windows.Forms.DateTimePicker()
         Me.SuspendLayout()
         '
         'listBoxDestinos
         '
+        Me.listBoxDestinos.BackColor = System.Drawing.SystemColors.WindowFrame
         Me.listBoxDestinos.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.listBoxDestinos.ForeColor = System.Drawing.SystemColors.Window
         Me.listBoxDestinos.FormattingEnabled = True
         Me.listBoxDestinos.ItemHeight = 25
         Me.listBoxDestinos.Location = New System.Drawing.Point(393, 240)
@@ -42,7 +44,9 @@ Partial Class ViajesRegistros
         '
         'listBoxClientes
         '
+        Me.listBoxClientes.BackColor = System.Drawing.SystemColors.WindowFrame
         Me.listBoxClientes.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.listBoxClientes.ForeColor = System.Drawing.SystemColors.Window
         Me.listBoxClientes.FormattingEnabled = True
         Me.listBoxClientes.ItemHeight = 25
         Me.listBoxClientes.Location = New System.Drawing.Point(833, 240)
@@ -61,14 +65,6 @@ Partial Class ViajesRegistros
         Me.Label6.TabIndex = 10
         Me.Label6.Text = "VIAJES"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'calendar
-        '
-        Me.calendar.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.calendar.Location = New System.Drawing.Point(721, 546)
-        Me.calendar.MinDate = New Date(2024, 12, 2, 0, 0, 0, 0)
-        Me.calendar.Name = "calendar"
-        Me.calendar.TabIndex = 11
         '
         'Button1
         '
@@ -94,15 +90,26 @@ Partial Class ViajesRegistros
         Me.Button2.TabIndex = 22
         Me.Button2.UseVisualStyleBackColor = False
         '
+        'calendar
+        '
+        Me.calendar.CalendarFont = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.calendar.CalendarMonthBackground = System.Drawing.SystemColors.WindowFrame
+        Me.calendar.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.calendar.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.calendar.Location = New System.Drawing.Point(689, 417)
+        Me.calendar.Name = "calendar"
+        Me.calendar.Size = New System.Drawing.Size(225, 44)
+        Me.calendar.TabIndex = 23
+        '
         'ViajesRegistros
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.ClientSize = New System.Drawing.Size(1584, 985)
+        Me.Controls.Add(Me.calendar)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.calendar)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.listBoxClientes)
         Me.Controls.Add(Me.listBoxDestinos)
@@ -116,7 +123,7 @@ Partial Class ViajesRegistros
     Friend WithEvents listBoxDestinos As ListBox
     Friend WithEvents listBoxClientes As ListBox
     Friend WithEvents Label6 As Label
-    Friend WithEvents calendar As MonthCalendar
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents calendar As DateTimePicker
 End Class

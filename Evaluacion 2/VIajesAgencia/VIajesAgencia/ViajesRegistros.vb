@@ -72,32 +72,39 @@ Public Class ViajesRegistros
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-
-
         SaveTravelAs()
-        MessageBox.Show("Guardado correctamente")
     End Sub
 
     Public Sub SaveTravelAs()
-        Dim destino As String = listBoxDestinos.SelectedItem
-        Dim cliente As String = listBoxClientes.SelectedItem
-        Dim fecha As String = calendar.SelectionStart.ToShortDateString
+        Dim destino As String = ""
+        Dim cliente As String = ""
+        destino = listBoxDestinos.SelectedItem
+        cliente = listBoxClientes.SelectedItem
+        Dim fecha As Date = New Date()
+        fecha = Date.Parse(calendar.Text)
+        Dim fechaActual As Date = DateTime.Now.ToShortDateString
+
+        If fecha < fechaActual Then
+            MessageBox.Show("No puedes añadir un viaje previo al dia actual")
+            Return
+        End If
 
         Dim destinoCompleto As String = $"{cliente}-{destino}-{fecha}#"
 
         Try
-            If destino.Equals("") Or cliente.Equals("") Then
+            If destino Is Nothing Or cliente Is Nothing Then
                 MessageBox.Show("Por favor, seleccione todos los campos")
             Else
                 Dim saveFileDialog As New SaveFileDialog()
                 filePath = saveFileDialog.FileName
 
-                saveFileDialog.Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*"
+                saveFileDialog.Filter = "Text Files (*.txt)|*.txt"
                 saveFileDialog.Title = "Guardar como"
                 If saveFileDialog.ShowDialog() = DialogResult.OK Then
                     Using writer As New StreamWriter(saveFileDialog.FileName, True)
                         writer.WriteLine(destinoCompleto)
                     End Using
+                    MessageBox.Show("Guardado correctamente")
                 End If
             End If
 
@@ -108,13 +115,12 @@ Public Class ViajesRegistros
 
     Private Sub BtnSelect_Click(sender As Object, e As EventArgs)
         SaveTravel()
-        MessageBox.Show("Guardado correctamente")
     End Sub
 
     Public Sub SaveTravel()
         Dim destino As String = listBoxDestinos.SelectedItem
         Dim cliente As String = listBoxClientes.SelectedItem
-        Dim fecha As String = calendar.SelectionStart.ToShortDateString
+        Dim fecha As String = calendar.Text
 
         Dim destinoCompleto As String = $"{cliente}-{destino}-{fecha}#"
 
@@ -129,4 +135,6 @@ Public Class ViajesRegistros
         Me.Hide()
         Viajes.Show()
     End Sub
+
+
 End Class

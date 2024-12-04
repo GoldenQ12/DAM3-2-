@@ -1,26 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Aita\\Downloads\\DAM3-2--AAD-Acceso-A-Datos (1)\\DAM3-2--AAD-Acceso-A-Datos\\Evaluacion 2\\VIajesAgencia\\",
+  "WorkspaceRootPath": "C:\\Users\\Aita\\Downloads\\GitHub\\DAM3-2_REAL\\Evaluacion 2\\VIajesAgencia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|c:\\users\\aita\\downloads\\dam3-2--aad-acceso-a-datos (1)\\dam3-2--aad-acceso-a-datos\\evaluacion 2\\viajesagencia\\viajesagencia\\destinos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|solutionrelative:viajesagencia\\destinos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|c:\\users\\aita\\downloads\\github\\dam3-2_real\\evaluacion 2\\viajesagencia\\viajesagencia\\viajespornombre.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|solutionrelative:viajesagencia\\viajespornombre.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|C:\\Users\\Aita\\Downloads\\DAM3-2--AAD-Acceso-A-Datos (1)\\DAM3-2--AAD-Acceso-A-Datos\\Evaluacion 2\\VIajesAgencia\\viajesagencia\\destinos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|solutionrelative:viajesagencia\\destinos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|c:\\users\\aita\\downloads\\github\\dam3-2_real\\evaluacion 2\\viajesagencia\\viajesagencia\\viajespornombre.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|solutionrelative:viajesagencia\\viajespornombre.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|C:\\Users\\Aita\\Downloads\\DAM3-2--AAD-Acceso-A-Datos (1)\\DAM3-2--AAD-Acceso-A-Datos\\Evaluacion 2\\VIajesAgencia\\viajesagencia\\clientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|c:\\users\\aita\\downloads\\github\\dam3-2_real\\evaluacion 2\\viajesagencia\\viajesagencia\\viajesregistros.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|solutionrelative:viajesagencia\\viajesregistros.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|c:\\users\\aita\\downloads\\github\\dam3-2_real\\evaluacion 2\\viajesagencia\\viajesagencia\\clientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|solutionrelative:viajesagencia\\clientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|C:\\Users\\Aita\\Downloads\\DAM3-2--AAD-Acceso-A-Datos (1)\\DAM3-2--AAD-Acceso-A-Datos\\Evaluacion 2\\VIajesAgencia\\viajesagencia\\clientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|c:\\users\\aita\\downloads\\github\\dam3-2_real\\evaluacion 2\\viajesagencia\\viajesagencia\\viajesregistros.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|solutionrelative:viajesagencia\\viajesregistros.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|c:\\users\\aita\\downloads\\github\\dam3-2_real\\evaluacion 2\\viajesagencia\\viajesagencia\\clientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|solutionrelative:viajesagencia\\clientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|C:\\Users\\Aita\\Downloads\\DAM3-2--AAD-Acceso-A-Datos (1)\\DAM3-2--AAD-Acceso-A-Datos\\Evaluacion 2\\VIajesAgencia\\viajesagencia\\viajes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|solutionrelative:viajesagencia\\viajes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|c:\\users\\aita\\downloads\\github\\dam3-2_real\\evaluacion 2\\viajesagencia\\viajesagencia\\destinos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|solutionrelative:viajesagencia\\destinos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|c:\\users\\aita\\downloads\\github\\dam3-2_real\\evaluacion 2\\viajesagencia\\viajesagencia\\destinos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{02A1DF65-8A2C-4950-B980-A7590E97107A}|VIajesAgencia\\VIajesAgencia.vbproj|solutionrelative:viajesagencia\\destinos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,66 +42,107 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Destinos.vb",
-              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\DAM3-2--AAD-Acceso-A-Datos (1)\\DAM3-2--AAD-Acceso-A-Datos\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\Destinos.vb",
-              "RelativeDocumentMoniker": "VIajesAgencia\\Destinos.vb",
-              "ToolTip": "C:\\Users\\Aita\\Downloads\\DAM3-2--AAD-Acceso-A-Datos (1)\\DAM3-2--AAD-Acceso-A-Datos\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\Destinos.vb",
-              "RelativeToolTip": "VIajesAgencia\\Destinos.vb",
-              "ViewState": "AQIAAHAAAAAAAAAAAAAnwH4AAAAJAAAA",
+              "DocumentIndex": 5,
+              "Title": "Clientes.vb",
+              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\GitHub\\DAM3-2_REAL\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\Clientes.vb",
+              "RelativeDocumentMoniker": "VIajesAgencia\\Clientes.vb",
+              "ToolTip": "C:\\Users\\Aita\\Downloads\\GitHub\\DAM3-2_REAL\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\Clientes.vb",
+              "RelativeToolTip": "VIajesAgencia\\Clientes.vb",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAkwG8AAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-12-04T07:15:19.512Z",
+              "WhenOpened": "2024-12-04T11:24:39.646Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Destinos.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\DAM3-2--AAD-Acceso-A-Datos (1)\\DAM3-2--AAD-Acceso-A-Datos\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\Destinos.vb",
-              "RelativeDocumentMoniker": "VIajesAgencia\\Destinos.vb",
-              "ToolTip": "C:\\Users\\Aita\\Downloads\\DAM3-2--AAD-Acceso-A-Datos (1)\\DAM3-2--AAD-Acceso-A-Datos\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\Destinos.vb [Design]",
-              "RelativeToolTip": "VIajesAgencia\\Destinos.vb [Design]",
+              "DocumentIndex": 3,
+              "Title": "Clientes.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\GitHub\\DAM3-2_REAL\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\Clientes.vb",
+              "RelativeDocumentMoniker": "VIajesAgencia\\Clientes.vb",
+              "ToolTip": "C:\\Users\\Aita\\Downloads\\GitHub\\DAM3-2_REAL\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\Clientes.vb [Design]",
+              "RelativeToolTip": "VIajesAgencia\\Clientes.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-12-04T07:13:36.645Z",
+              "WhenOpened": "2024-12-04T11:24:38.139Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Clientes.vb",
-              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\DAM3-2--AAD-Acceso-A-Datos (1)\\DAM3-2--AAD-Acceso-A-Datos\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\Clientes.vb",
-              "RelativeDocumentMoniker": "VIajesAgencia\\Clientes.vb",
-              "ToolTip": "C:\\Users\\Aita\\Downloads\\DAM3-2--AAD-Acceso-A-Datos (1)\\DAM3-2--AAD-Acceso-A-Datos\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\Clientes.vb",
-              "RelativeToolTip": "VIajesAgencia\\Clientes.vb",
-              "ViewState": "AQIAAGcAAAAAAAAAAAAewHUAAAAIAAAA",
+              "DocumentIndex": 0,
+              "Title": "ViajesPorNombre.vb",
+              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\GitHub\\DAM3-2_REAL\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\ViajesPorNombre.vb",
+              "RelativeDocumentMoniker": "VIajesAgencia\\ViajesPorNombre.vb",
+              "ToolTip": "C:\\Users\\Aita\\Downloads\\GitHub\\DAM3-2_REAL\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\ViajesPorNombre.vb",
+              "RelativeToolTip": "VIajesAgencia\\ViajesPorNombre.vb",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAwwBsAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-12-04T07:09:14.866Z"
+              "WhenOpened": "2024-12-04T11:07:36.329Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Clientes.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\DAM3-2--AAD-Acceso-A-Datos (1)\\DAM3-2--AAD-Acceso-A-Datos\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\Clientes.vb",
-              "RelativeDocumentMoniker": "VIajesAgencia\\Clientes.vb",
-              "ToolTip": "C:\\Users\\Aita\\Downloads\\DAM3-2--AAD-Acceso-A-Datos (1)\\DAM3-2--AAD-Acceso-A-Datos\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\Clientes.vb [Design]",
-              "RelativeToolTip": "VIajesAgencia\\Clientes.vb [Design]",
+              "DocumentIndex": 1,
+              "Title": "ViajesPorNombre.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\GitHub\\DAM3-2_REAL\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\ViajesPorNombre.vb",
+              "RelativeDocumentMoniker": "VIajesAgencia\\ViajesPorNombre.vb",
+              "ToolTip": "C:\\Users\\Aita\\Downloads\\GitHub\\DAM3-2_REAL\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\ViajesPorNombre.vb [Design]",
+              "RelativeToolTip": "VIajesAgencia\\ViajesPorNombre.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-12-04T07:04:45.621Z"
+              "WhenOpened": "2024-12-04T11:07:35.357Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Viajes.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\DAM3-2--AAD-Acceso-A-Datos (1)\\DAM3-2--AAD-Acceso-A-Datos\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\Viajes.vb",
-              "RelativeDocumentMoniker": "VIajesAgencia\\Viajes.vb",
-              "ToolTip": "C:\\Users\\Aita\\Downloads\\DAM3-2--AAD-Acceso-A-Datos (1)\\DAM3-2--AAD-Acceso-A-Datos\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\Viajes.vb [Design]",
-              "RelativeToolTip": "VIajesAgencia\\Viajes.vb [Design]",
+              "Title": "ViajesRegistros.vb",
+              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\GitHub\\DAM3-2_REAL\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\ViajesRegistros.vb",
+              "RelativeDocumentMoniker": "VIajesAgencia\\ViajesRegistros.vb",
+              "ToolTip": "C:\\Users\\Aita\\Downloads\\GitHub\\DAM3-2_REAL\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\ViajesRegistros.vb",
+              "RelativeToolTip": "VIajesAgencia\\ViajesRegistros.vb",
+              "ViewState": "AQIAADgAAAAAAAAAAAAIwFAAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-12-04T07:04:44.141Z"
+              "WhenOpened": "2024-12-04T11:04:44.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViajesRegistros.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\GitHub\\DAM3-2_REAL\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\ViajesRegistros.vb",
+              "RelativeDocumentMoniker": "VIajesAgencia\\ViajesRegistros.vb",
+              "ToolTip": "C:\\Users\\Aita\\Downloads\\GitHub\\DAM3-2_REAL\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\ViajesRegistros.vb [Design]",
+              "RelativeToolTip": "VIajesAgencia\\ViajesRegistros.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-04T11:04:39.682Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Destinos.vb",
+              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\GitHub\\DAM3-2_REAL\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\Destinos.vb",
+              "RelativeDocumentMoniker": "VIajesAgencia\\Destinos.vb",
+              "ToolTip": "C:\\Users\\Aita\\Downloads\\GitHub\\DAM3-2_REAL\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\Destinos.vb",
+              "RelativeToolTip": "VIajesAgencia\\Destinos.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-04T11:02:37.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Destinos.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\GitHub\\DAM3-2_REAL\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\Destinos.vb",
+              "RelativeDocumentMoniker": "VIajesAgencia\\Destinos.vb",
+              "ToolTip": "C:\\Users\\Aita\\Downloads\\GitHub\\DAM3-2_REAL\\Evaluacion 2\\VIajesAgencia\\VIajesAgencia\\Destinos.vb [Design]",
+              "RelativeToolTip": "VIajesAgencia\\Destinos.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-04T11:02:36.333Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

@@ -1,7 +1,7 @@
 ﻿Imports System.IO
 
 Public Class ViajesPorNombre
-    Dim filePath As String = "viaje.txt"
+    Dim filePath As String = ""
     Dim filePathClientes As String = "clientes.txt"
     Private Sub ViajesPorNombre_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.CenterToScreen()
@@ -17,7 +17,21 @@ Public Class ViajesPorNombre
         dt.Columns.Add("Fecha")
 
         Try
+            If filePath = "" Then
+                MessageBox.Show("Seleccione el archivo a cargar")
+                Dim openFileDialog As New OpenFileDialog()
+
+                ' Configurar las propiedades del cuadro de diálogo
+                openFileDialog.Filter = "Archivos de texto (*.txt)|*.txt"
+                openFileDialog.Title = "Seleccionar un archivo"
+
+                ' Mostrar el cuadro de diálogo y verificar si el usuario hizo clic en "Abrir"
+                If openFileDialog.ShowDialog() = DialogResult.OK Then
+                    filePath = openFileDialog.FileName
+                End If
+            End If
             Using reader As New StreamReader(filePath)
+
                 While Not reader.EndOfStream
                     Dim line As String = reader.ReadLine()
                     Dim viajeData As String() = line.Split("#")
@@ -30,6 +44,7 @@ Public Class ViajesPorNombre
                             End If
                         End If
                     Next
+
                 End While
             End Using
 
@@ -64,6 +79,10 @@ Public Class ViajesPorNombre
                 End While
             End Using
             DataGridView1.DataSource = dt
+            If nombre = "" Then
+                LoadData()
+                Return
+            End If
             If dt.Rows.Count <= 0 Then
                 MessageBox.Show($"El cliente {nombre} no tiene viajes")
                 LoadData()

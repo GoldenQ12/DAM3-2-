@@ -34,7 +34,7 @@ Public Class Clientes
 
                 For Each cliente As String In clienteData
                     If Not String.IsNullOrWhiteSpace(cliente) Then
-                        Dim fields As String() = cliente.Split("€")
+                        Dim fields As String() = cliente.Split("€") '0.6
                         dt.Rows.Add(fields(0), fields(1), fields(2), fields(3) + " €")
                     End If
                 Next
