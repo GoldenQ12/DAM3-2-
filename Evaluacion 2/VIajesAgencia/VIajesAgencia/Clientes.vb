@@ -27,7 +27,13 @@ Public Class Clientes
         dt.Columns.Add("Euros reserva")
 
         Try
+            If Not File.Exists(filePath) Then
+                File.Create(filePath)
+            End If
+
             Dim lines As String() = File.ReadAllLines(filePath)
+
+
 
             For Each line As String In lines
                 Dim clienteData As String() = line.Split("#")

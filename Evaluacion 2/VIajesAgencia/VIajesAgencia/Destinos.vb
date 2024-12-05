@@ -67,6 +67,9 @@ Public Class Destinos
         dt.Columns.Add("Guia")
 
         Try
+            If Not File.Exists(filePath) Then
+                File.Create(filePath)
+            End If
             Using reader As New StreamReader(filePath)
                 While Not reader.EndOfStream
                     Dim line As String = reader.ReadLine()
