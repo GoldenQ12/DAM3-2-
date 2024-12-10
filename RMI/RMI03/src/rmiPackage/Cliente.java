@@ -2,7 +2,6 @@ package rmiPackage;
 
 import java.rmi.Naming;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.Scanner;
 
 public class Cliente {
