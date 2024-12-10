@@ -1,3 +1,0 @@
-INDEX VERSION 1.134+C:\Users\Aita\Downloads\GitHub\DAM3-2_REAL\RMI\.metadata\.plugins\org.eclipse.jdt.core
-284227042.index
-1865797976.index
