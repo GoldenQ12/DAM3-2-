@@ -20,26 +20,25 @@ public class Cliente {
             
             int opc = sc.nextInt();
         	switch (opc) {
-			case 1: {
-				System.out.println("Introduce un numero: ");
-				int num1 = sc.nextInt();
-				System.out.println("Introduce otro numero: ");
-				int num2 = sc.nextInt();
-				System.out.println("" + num1 + " + " + num2 + " = " + obj.sumar(num1, num2));
-				break;
-			}
-			case 2: {
-				System.out.println("Introduce un numero: ");
-				int num1 = sc.nextInt();
-				System.out.println("Introduce otro numero: ");
-				int num2 = sc.nextInt();
-				System.out.println("" + num1 + " - " + num2 + " = " + obj.restar(num1, num2));
-				break;
-			}
-			default:
-				System.out.println("Por favor, introduzca o 1 o 2");
-			}
-            
+				case 1: {
+					System.out.println("Introduce un numero: ");
+					int num1 = sc.nextInt();
+					System.out.println("Introduce otro numero: ");
+					int num2 = sc.nextInt();
+					System.out.println("" + num1 + " + " + num2 + " = " + obj.sumar(num1, num2));
+					break;
+				}
+				case 2: {
+					System.out.println("Introduce un numero: ");
+					int num1 = sc.nextInt();
+					System.out.println("Introduce otro numero: ");
+					int num2 = sc.nextInt();
+					System.out.println("" + num1 + " - " + num2 + " = " + obj.restar(num1, num2));
+					break;
+				}
+				default:
+					System.out.println("Por favor, introduzca o 1 o 2");
+				}
             sc.close();
            
             
