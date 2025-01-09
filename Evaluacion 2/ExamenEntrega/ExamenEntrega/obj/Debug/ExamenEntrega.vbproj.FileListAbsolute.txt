@@ -1,0 +1,14 @@
+D:\GitHubDam3\DAM3-2\Evaluacion 2\ExamenEntrega\ExamenEntrega\obj\Debug\ExamenEntrega.vbproj.AssemblyReference.cache
+D:\GitHubDam3\DAM3-2\Evaluacion 2\ExamenEntrega\ExamenEntrega\obj\Debug\ExamenEntrega.Ejercicio4.resources
+D:\GitHubDam3\DAM3-2\Evaluacion 2\ExamenEntrega\ExamenEntrega\obj\Debug\ExamenEntrega.Examen.resources
+D:\GitHubDam3\DAM3-2\Evaluacion 2\ExamenEntrega\ExamenEntrega\obj\Debug\ExamenEntrega.Resources.resources
+D:\GitHubDam3\DAM3-2\Evaluacion 2\ExamenEntrega\ExamenEntrega\obj\Debug\ExamenEntrega.vbproj.GenerateResource.cache
+D:\GitHubDam3\DAM3-2\Evaluacion 2\ExamenEntrega\ExamenEntrega\obj\Debug\ExamenEntrega.vbproj.CoreCompileInputs.cache
+D:\GitHubDam3\DAM3-2\Evaluacion 2\ExamenEntrega\ExamenEntrega\bin\Debug\ExamenEntrega.exe.config
+D:\GitHubDam3\DAM3-2\Evaluacion 2\ExamenEntrega\ExamenEntrega\bin\Debug\ExamenEntrega.exe
+D:\GitHubDam3\DAM3-2\Evaluacion 2\ExamenEntrega\ExamenEntrega\bin\Debug\ExamenEntrega.pdb
+D:\GitHubDam3\DAM3-2\Evaluacion 2\ExamenEntrega\ExamenEntrega\bin\Debug\ExamenEntrega.xml
+D:\GitHubDam3\DAM3-2\Evaluacion 2\ExamenEntrega\ExamenEntrega\obj\Debug\ExamenEntrega.exe
+D:\GitHubDam3\DAM3-2\Evaluacion 2\ExamenEntrega\ExamenEntrega\obj\Debug\ExamenEntrega.xml
+D:\GitHubDam3\DAM3-2\Evaluacion 2\ExamenEntrega\ExamenEntrega\obj\Debug\ExamenEntrega.pdb
+D:\GitHubDam3\DAM3-2\Evaluacion 2\ExamenEntrega\ExamenEntrega\obj\Debug\ExamenEntrega.DatosBarco.resources

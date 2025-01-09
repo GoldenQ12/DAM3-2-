@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<barcos>
+<barco matricula="2ª-AT-6-31-96">
+<codigoCapitan>25</codigoCapitan>
+<eslora>66</eslora>
+<tripulantes>19</tripulantes>
+<fechaConstruccion>01/02/1996</fechaConstruccion>
+<bandera>Francia</bandera>
+</barco>
+<barco matricula="2ª-BI-2-12-14">
+<codigoCapitan>224</codigoCapitan>
+<eslora>135</eslora>
+<tripulantes>26</tripulantes>
+</barco>
+<barco matricula="RU435689">
+<codigoCapitan>387</codigoCapitan>
+<eslora>92</eslora>
+<tripulantes>21</tripulantes>
+<bandera>Nueva Zelanda</bandera>
+</barco>
+<barco matricula="A456229">
+<codigoCapitan>387</codigoCapitan>
+<eslora>90</eslora>
+<tripulantes>21</tripulantes>
+<fechaConstruccion>01/11/2000</fechaConstruccion>
+<bandera>Gran Bretaña</bandera>
+</barco>
+<barco matricula="MO08774">
+<codigoCapitan>224</codigoCapitan>
+<eslora>35</eslora>
+<tripulantes>3</tripulantes>
+<bandera>Monaco</bandera>
+</barco>
+<barco matricula="6ª-CT-3-7-11">
+<codigoCapitan>25</codigoCapitan>
+<eslora>100</eslora>
+<tripulantes>16</tripulantes>
+</barco>
+<barco matricula="RU88236">
+<codigoCapitan>25</codigoCapitan>
+<eslora>112</eslora>
+<tripulantes>29</tripulantes>
+<fechaConstruccion>13/09/1998</fechaConstruccion>
+</barco>
+<barco matricula="GRK5527">
+<codigoCapitan>224</codigoCapitan>
+<eslora>92</eslora>
+<tripulantes>21</tripulantes>
+<bandera>Grecia</bandera>
+</barco>
+</barcos>

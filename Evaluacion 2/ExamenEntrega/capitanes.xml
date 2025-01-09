@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<capitanes>
+<capitan codigo="25" apodo="viejo">
+<nombre> John Smith Parker</nombre>
+<fechaNacimiento>13/8/1953</fechaNacimiento>
+<fechaCapitania>20/01/1976</fechaCapitania>
+</capitan>
+<capitan codigo="387" apodo="lobo">
+<nombre> James Stevenson Dole</nombre>
+<fechaNacimiento>120/08/1976</fechaNacimiento>
+<fechaCapitania>26/07/2000</fechaCapitania>
+</capitan>
+<capitan codigo="224" apodo="gordon">
+<nombre> Gordon Graham Wers</nombre>
+<fechaNacimiento>30/06/1976</fechaNacimiento>
+<fechaCapitania>03/02/1992</fechaCapitania>
+</capitan>
+</capitanes>
