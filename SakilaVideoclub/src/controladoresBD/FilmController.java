@@ -16,7 +16,7 @@ public class FilmController implements Patron_DAO<Film> {
 	    Trailers, Commentaries, Deleted_Scenes, Behind_the_Scenes
 	}
 	
-	private static final String SQL_INSERT = "INSERT INTO film (film_id, title, description, release_year, language_id, original_language_id, rental_duration, rental_rate, length, replacement_cost, rating, special_feature, last_update VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)";
+	private static final String SQL_INSERT = "INSERT INTO film (film_id, title, description, release_year, language_id, original_language_id, rental_duration, rental_rate, length, replacement_cost, rating, special_feature, last_update) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)";
 	private static final String SQL_DELETE = "DELETE FROM film WHERE film_id = ?";
 	private static final String SQL_UPDATE = "UPDATE film SET film_id = ?, title = ?, description = ?, release_year = ?, language_id = ?, original_language_id = ?, rental_duration = ?, rental_rate = ?, length = ?, replacement_cost = ?, rating = ?, special_feature = ?, last_update = ? WHERE film_id = ?";
 	private static final String SQL_SELECT = "SELECT * FROM film";
