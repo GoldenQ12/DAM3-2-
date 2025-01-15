@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Asignaturas>
+  <Asignatura id="Acceso a Datos">
+    <horario>MAÑANA</horario>
+    <horas>100</horas>
+  </Asignatura>
+  <Asignatura id="Bases de Datos">
+    <horario>MAÑANA</horario>
+    <horas>60</horas>
+  </Asignatura>
+</Asignaturas>

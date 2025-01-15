@@ -22,16 +22,30 @@ Partial Class Ejercicio5
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
+        '
+        'Button2
+        '
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 48.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(455, 222)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(546, 206)
+        Me.Button2.TabIndex = 2
+        Me.Button2.Text = "GENERAR XML"
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'Ejercicio5
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1447, 685)
+        Me.Controls.Add(Me.Button2)
         Me.Name = "Ejercicio5"
         Me.Text = "Ejercicio5"
         Me.ResumeLayout(False)
 
     End Sub
+
+    Friend WithEvents Button2 As Button
 End Class
