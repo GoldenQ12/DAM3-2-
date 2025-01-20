@@ -1,33 +1,44 @@
 package socketsTest;
 
-import java.io.InputStream;
-import java.io.ObjectInputStream;
-import java.net.ServerSocket;
-import java.net.Socket;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.util.Random;
+
+import javax.net.ssl.SSLServerSocket;
+import javax.net.ssl.SSLServerSocketFactory;
+import javax.net.ssl.SSLSocket;
 
 public class Servidor {
-	public Servidor() {
-        try {
-            ServerSocket serverSocket = new ServerSocket(5000);
-            System.out.println("Escuchando en el puerto 5000");
 
-            for (int cliente = 0; cliente < 5; cliente++) {
-                Socket socket = serverSocket.accept();
+    public static void main(String[] args)throws IOException {
+        int puerto=6000;
 
-                InputStream inputStream = socket.getInputStream();
-                ObjectInputStream objectInputStream = new ObjectInputStream(inputStream);
+        System.setProperty("javax.net.ssl.keyStore", "certificados/AlmacenSSL");
+        System.setProperty("javax.net.ssl.keyStorePassword","1234567");
 
-                Persona p1 = (Persona) objectInputStream.readObject();
-                System.out.println("Persona recibida del cliente " + (cliente + 1) + ": " + 
-                "\nNombre: " + p1.getNombre() + 
-                "\nEdad: " + p1.getEdad());
-            }
-            serverSocket.close();
-        } catch (Exception e) {
-            System.err.println("Error: " + e.getMessage());
+        SSLServerSocketFactory sfact=(SSLServerSocketFactory) SSLServerSocketFactory.getDefault();
+        SSLServerSocket servidorSSL=(SSLServerSocket) sfact.createServerSocket(puerto);
+        SSLSocket clienteConectado=null;
+
+        DataInputStream flujoEntrada=null;
+        DataOutputStream flujoSalida=null;
+
+        Random randomizado=new Random();
+        int numRandom=0;
+        for(int i=1;i<5;i++){
+            System.out.println("Esperando al cliente "+i);
+            clienteConectado=(SSLSocket) servidorSSL.accept();
+            flujoEntrada=new DataInputStream(clienteConectado.getInputStream());
+            System.out.println("Recibiendo del cliente "+i+" '"+flujoEntrada.readUTF()+i+"'");
+            flujoSalida=new DataOutputStream(clienteConectado.getOutputStream());
+            numRandom=randomizado.nextInt(10)+1;
+            flujoSalida.writeInt(numRandom);
+            clienteConectado.close();
         }
-    }
-    public static void main(String[] args) {
-        new Servidor();
+        //Cerrar streams y sockets
+        flujoEntrada.close();
+        flujoSalida.close();
+        servidorSSL.close();
     }
 }
