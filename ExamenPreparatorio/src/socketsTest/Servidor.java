@@ -39,6 +39,5 @@ public class Servidor {
         //Cerrar streams y sockets
         flujoEntrada.close();
         flujoSalida.close();
-        servidorSSL.close();
     }
 }
