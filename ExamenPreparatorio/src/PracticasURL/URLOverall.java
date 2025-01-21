@@ -92,8 +92,7 @@ public class URLOverall {
         Scanner sc = new Scanner(System.in);
 		String urlText = sc.nextLine();
         try {
-        	URI uri = new URI(urlText);
-            URL urlLink = uri.toURL();
+            URL urlLink = new URL(urlText);
             BufferedReader in = new BufferedReader(new InputStreamReader(urlLink.openStream()));
             String linea;
             while ((linea = in.readLine()) != null) {
@@ -101,9 +100,6 @@ public class URLOverall {
             }
         } catch (MalformedURLException e) {
             System.out.println("URL mal formada: " + e.getMessage());
-        } catch (URISyntaxException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -116,8 +112,7 @@ public class URLOverall {
         Scanner sc = new Scanner(System.in);
         String urlText = sc.nextLine();
         try {
-            URI uri = new URI(urlText);
-            URL urlLink = uri.toURL();
+        	URL urlLink = new URL(urlText);
             URLConnection connection = urlLink.openConnection();
             connection.connect();
 

@@ -32,7 +32,9 @@ public class URL04{
             String file = u.getFile();
             file = file.substring(file.lastIndexOf('/')+1);
 
-            FileOutputStream fout = new FileOutputStream(file);
+            String user = System.getProperty("user.home");
+            FileOutputStream fout = new FileOutputStream(user + "/Desktop/prueba" + file);
+
             BufferedOutputStream out = new BufferedOutputStream(fout);
 
             int i;
