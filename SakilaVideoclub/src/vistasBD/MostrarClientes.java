@@ -90,7 +90,7 @@ public class MostrarClientes extends JDialog {
 	        for (Customer cust : customer.listarTodos()) {
 	                modelo.addRow(new Object[]{
 	                		cust.getCustomer_id(),
-	                		cust.getStore_id(),
+	                		cust.getStore_id() == 1 ? "Tienda 1" : "Tienda 2",
 	                		cust.getFirst_name(),
 	                		cust.getLast_name(),
 	                		cust.getEmail(),

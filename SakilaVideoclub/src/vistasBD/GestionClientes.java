@@ -36,7 +36,7 @@ public class GestionClientes extends JDialog {
 	 * Create the dialog.
 	 */
 	public GestionClientes() {
-		setBounds(100, 100, 879, 537);
+		setBounds(100, 100, 879, 588);
 		getContentPane().setLayout(new BorderLayout());
 		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
 		getContentPane().add(contentPanel, BorderLayout.CENTER);
@@ -58,7 +58,7 @@ public class GestionClientes extends JDialog {
 			});
 			btnVolver.setForeground(Color.RED);
 			btnVolver.setFont(new Font("Tahoma", Font.BOLD, 18));
-			btnVolver.setBounds(676, 410, 187, 84);
+			btnVolver.setBounds(660, 454, 187, 84);
 			contentPanel.add(btnVolver);
 		}
 		{
@@ -70,6 +70,12 @@ public class GestionClientes extends JDialog {
 		}
 		{
 			JButton btnGestinDeClientes = new JButton("BAJA CLIENTES");
+			btnGestinDeClientes.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					BajaCliente form = new BajaCliente();
+					form.setVisible(true);
+				}
+			});
 			btnGestinDeClientes.setForeground(new Color(0, 128, 192));
 			btnGestinDeClientes.setFont(new Font("Tahoma", Font.BOLD, 18));
 			btnGestinDeClientes.setBounds(292, 108, 272, 84);
@@ -92,7 +98,7 @@ public class GestionClientes extends JDialog {
 			});
 			btnConsultasDeClientes.setForeground(new Color(0, 128, 192));
 			btnConsultasDeClientes.setFont(new Font("Tahoma", Font.BOLD, 18));
-			btnConsultasDeClientes.setBounds(10, 239, 272, 84);
+			btnConsultasDeClientes.setBounds(10, 203, 411, 84);
 			contentPanel.add(btnConsultasDeClientes);
 		}
 		{
@@ -107,7 +113,7 @@ public class GestionClientes extends JDialog {
 		JButton btnConsultasDeClientes_3 = new JButton("CONSULTAS DE CLIENTES  POR VENDEDOR");
 		btnConsultasDeClientes_3.setForeground(new Color(0, 128, 192));
 		btnConsultasDeClientes_3.setFont(new Font("Tahoma", Font.BOLD, 18));
-		btnConsultasDeClientes_3.setBounds(10, 334, 554, 84);
+		btnConsultasDeClientes_3.setBounds(10, 298, 837, 84);
 		contentPanel.add(btnConsultasDeClientes_3);
 		
 		JButton btnConsultasDeClientes_2 = new JButton("CONSULTAS DE CLIENTES POR PAIS");
@@ -119,7 +125,7 @@ public class GestionClientes extends JDialog {
 		});
 		btnConsultasDeClientes_2.setForeground(new Color(0, 128, 192));
 		btnConsultasDeClientes_2.setFont(new Font("Tahoma", Font.BOLD, 18));
-		btnConsultasDeClientes_2.setBounds(292, 239, 555, 84);
+		btnConsultasDeClientes_2.setBounds(436, 203, 411, 84);
 		contentPanel.add(btnConsultasDeClientes_2);
 	}
 }
