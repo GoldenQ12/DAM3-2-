@@ -20,20 +20,21 @@ import java.awt.event.ActionEvent;
 import javax.swing.JTable;
 import javax.swing.JScrollPane;
 
-public class MostrarClientes extends JDialog {
+public class MostrarClientesPorVendedor extends JDialog {
 
 	private static final long serialVersionUID = 1L;
 	private final JPanel contentPanel = new JPanel();
 	private JTable table;
 	private CustomerController customer = new CustomerController();
 	private AddressController addresses = new AddressController();
+	private static int id = 0;
 
 	/**
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
 		try {
-			MostrarClientes dialog = new MostrarClientes();
+			MostrarClientesPorVendedor dialog = new MostrarClientesPorVendedor(id);
 			dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
 			dialog.setVisible(true);
 		} catch (Exception e) {
@@ -44,7 +45,8 @@ public class MostrarClientes extends JDialog {
 	/**
 	 * Create the dialog.
 	 */
-	public MostrarClientes() {
+	public MostrarClientesPorVendedor(int id_vendedor) {
+		id = id_vendedor;
 		setBounds(100, 100, 879, 536);
 		getContentPane().setLayout(new BorderLayout());
 		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
@@ -67,11 +69,11 @@ public class MostrarClientes extends JDialog {
 		});
 		btnVolver.setForeground(Color.RED);
 		btnVolver.setFont(new Font("Tahoma", Font.BOLD, 18));
-		btnVolver.setBounds(687, 402, 166, 84);
+		btnVolver.setBounds(670, 402, 183, 84);
 		contentPanel.add(btnVolver);
 		
 		JScrollPane scrollPane = new JScrollPane();
-		scrollPane.setBounds(10, 36, 667, 404);
+		scrollPane.setBounds(10, 36, 615, 404);
 		contentPanel.add(scrollPane);
 		
 		table = new JTable();
@@ -87,10 +89,10 @@ public class MostrarClientes extends JDialog {
 	        modelo.addColumn("Fecha de creación");
 	        
 	        
-	        for (Customer cust : customer.listarTodos()) {
+	        for (Customer cust : customer.listarPorVendedor(id)) {
 	                modelo.addRow(new Object[]{
 	                		cust.getCustomer_id(),
-	                		cust.getStore_id() == 1 ? "Tienda 1" : "Tienda 2",
+	                		cust.getStore_id(),
 	                		cust.getFirst_name(),
 	                		cust.getLast_name(),
 	                		cust.getEmail(),

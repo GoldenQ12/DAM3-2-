@@ -13,7 +13,7 @@ public class CustomerController implements Patron_DAO<Customer> {
 	private static final String SQL_DELETE = "DELETE FROM customer WHERE customer_id = ?";
 	private static final String SQL_UPDATE = "UPDATE customer SET customer_id = ?, store_id = ?, first_name = ?, last_name = ?, email = ?, address_id = ?, active = ?, create_date = ?, last_update = ? WHERE customer_id = ?";
 	private static final String SQL_SELECT_BY_PAIS = "SELECT * FROM customer WHERE address_id IN (SELECT address_id FROM address WHERE city_id IN (SELECT city_id FROM city WHERE country_id IN (SELECT country_id FROM country WHERE country_id = ?)))";
-	private static final String SQL_SELECT_BY_VENDEDOR = "SELECT * FROM customer WHERE store_id IN( SELECT store_id FROM store WHERE manager_staff_id IN (SELECT staff_id FROM customer WHERE staff_id = ?))";
+	private static final String SQL_SELECT_BY_VENDEDOR = "SELECT * FROM customer WHERE store_id IN( SELECT store_id FROM store WHERE manager_staff_id IN (SELECT staff_id FROM staff WHERE staff_id = ?))";
 	private static final String SQL_SELECT = "SELECT * FROM customer";
 	private static final String SQL_SELECT_BY_ID = "SELECT * FROM customer WHERE customer_id = ?";
 	

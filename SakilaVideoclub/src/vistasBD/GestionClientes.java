@@ -6,18 +6,30 @@ import javax.swing.JButton;
 import javax.swing.JDialog;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+
+import controladoresBD.CountryController;
+import controladoresBD.StaffController;
+import modelosBD.Country;
+import modelosBD.Staff;
+
 import java.awt.Font;
 import java.awt.Color;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.SwingConstants;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 import java.awt.event.ActionEvent;
+import javax.swing.JTextField;
+import javax.swing.JComboBox;
 
 public class GestionClientes extends JDialog {
 
 	private static final long serialVersionUID = 1L;
 	private final JPanel contentPanel = new JPanel();
+	private static StaffController staff = new StaffController(); 
+	private static CountryController paises = new CountryController();
+	private static JComboBox<String> cbPais;
 
 	/**
 	 * Launch the application.
@@ -36,7 +48,7 @@ public class GestionClientes extends JDialog {
 	 * Create the dialog.
 	 */
 	public GestionClientes() {
-		setBounds(100, 100, 879, 588);
+		setBounds(100, 100, 886, 696);
 		getContentPane().setLayout(new BorderLayout());
 		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
 		getContentPane().add(contentPanel, BorderLayout.CENTER);
@@ -58,11 +70,17 @@ public class GestionClientes extends JDialog {
 			});
 			btnVolver.setForeground(Color.RED);
 			btnVolver.setFont(new Font("Tahoma", Font.BOLD, 18));
-			btnVolver.setBounds(660, 454, 187, 84);
+			btnVolver.setBounds(673, 562, 187, 84);
 			contentPanel.add(btnVolver);
 		}
 		{
 			JButton btnAltaClientes = new JButton("ALTA CLIENTES");
+			btnAltaClientes.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					AltaCliente form = new AltaCliente();
+					form.setVisible(true);
+				}
+			});
 			btnAltaClientes.setForeground(new Color(0, 128, 192));
 			btnAltaClientes.setFont(new Font("Tahoma", Font.BOLD, 18));
 			btnAltaClientes.setBounds(10, 108, 272, 84);
@@ -83,6 +101,12 @@ public class GestionClientes extends JDialog {
 		}
 		{
 			JButton btnModificacinDeClientes = new JButton("MODIFICAR CLIENTE");
+			btnModificacinDeClientes.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					ModificarCliente form = new ModificarCliente();
+					form.setVisible(true);
+				}
+			});
 			btnModificacinDeClientes.setForeground(new Color(0, 128, 192));
 			btnModificacinDeClientes.setFont(new Font("Tahoma", Font.BOLD, 18));
 			btnModificacinDeClientes.setBounds(575, 108, 272, 84);
@@ -98,7 +122,7 @@ public class GestionClientes extends JDialog {
 			});
 			btnConsultasDeClientes.setForeground(new Color(0, 128, 192));
 			btnConsultasDeClientes.setFont(new Font("Tahoma", Font.BOLD, 18));
-			btnConsultasDeClientes.setBounds(10, 203, 411, 84);
+			btnConsultasDeClientes.setBounds(10, 203, 554, 84);
 			contentPanel.add(btnConsultasDeClientes);
 		}
 		{
@@ -110,22 +134,82 @@ public class GestionClientes extends JDialog {
 			contentPanel.add(lblGestionDeClientes);
 		}
 		
-		JButton btnConsultasDeClientes_3 = new JButton("CONSULTAS DE CLIENTES  POR VENDEDOR");
-		btnConsultasDeClientes_3.setForeground(new Color(0, 128, 192));
-		btnConsultasDeClientes_3.setFont(new Font("Tahoma", Font.BOLD, 18));
-		btnConsultasDeClientes_3.setBounds(10, 298, 837, 84);
-		contentPanel.add(btnConsultasDeClientes_3);
+		
+		
+		
+		
+		JLabel lblId_1 = new JLabel("Vendedor:");
+		lblId_1.setHorizontalAlignment(SwingConstants.LEFT);
+		lblId_1.setForeground(Color.BLACK);
+		lblId_1.setFont(new Font("Tahoma", Font.BOLD | Font.ITALIC, 18));
+		lblId_1.setBounds(566, 323, 177, 35);
+		contentPanel.add(lblId_1);
+		
+		JComboBox<String> cbVendedor = new JComboBox<String>();
+		cbVendedor.setFont(new Font("Tahoma", Font.BOLD | Font.ITALIC, 16));
+		cbVendedor.setBounds(673, 323, 174, 35);
+		ArrayList<Staff> staf = staff.listarTodos();
+		for (Staff item : staf) {
+			cbVendedor.addItem(item.getFirst_name());
+		}
+		
+		contentPanel.add(cbVendedor);
+		{
+			JLabel lblId_1_1 = new JLabel("Pais:");
+			lblId_1_1.setHorizontalAlignment(SwingConstants.LEFT);
+			lblId_1_1.setForeground(Color.BLACK);
+			lblId_1_1.setFont(new Font("Tahoma", Font.BOLD | Font.ITALIC, 18));
+			lblId_1_1.setBounds(566, 415, 177, 35);
+			contentPanel.add(lblId_1_1);
+		}
+		{
+			cbPais = new JComboBox<String>();
+			cbPais.setFont(new Font("Tahoma", Font.BOLD | Font.ITALIC, 16));
+			cbPais.setBounds(673, 415, 174, 35);
+			contentPanel.add(cbPais);
+			ArrayList<Country> paisess = paises.listarTodos();
+			for (Country pais : paisess) {
+				cbPais.addItem(pais.getCountry());
+			}
+			
+		}
 		
 		JButton btnConsultasDeClientes_2 = new JButton("CONSULTAS DE CLIENTES POR PAIS");
 		btnConsultasDeClientes_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				MostrarClientesPorPais form = new MostrarClientesPorPais(1);
-				form.setVisible(true);
+				ArrayList<Country> items = paises.listarTodos();
+				String nombre = cbPais.getSelectedItem().toString();
+				for (Country item : items) {
+					if (item.getCountry().equals(nombre)) {
+						int id = item.getCountry_id();
+						MostrarClientesPorPais form = new MostrarClientesPorPais(id);
+						form.setVisible(true);
+					}
+				}
 			}
 		});
 		btnConsultasDeClientes_2.setForeground(new Color(0, 128, 192));
 		btnConsultasDeClientes_2.setFont(new Font("Tahoma", Font.BOLD, 18));
-		btnConsultasDeClientes_2.setBounds(436, 203, 411, 84);
+		btnConsultasDeClientes_2.setBounds(10, 393, 554, 84);
 		contentPanel.add(btnConsultasDeClientes_2);
+		
+		JButton btnConsultasDeClientes_3 = new JButton("CONSULTAS DE CLIENTES POR VENDEDOR");
+		btnConsultasDeClientes_3.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				ArrayList<Staff> items = staff.listarTodos();
+				String nombre = cbVendedor.getSelectedItem().toString();
+				for (Staff item : items) {
+					if (item.getFirst_name().equals(nombre)) {
+						int id = item.getStaff_id();
+						MostrarClientesPorVendedor form = new MostrarClientesPorVendedor(id);
+						form.setVisible(true);
+					}
+				}
+			}
+		});
+		btnConsultasDeClientes_3.setForeground(new Color(0, 128, 192));
+		btnConsultasDeClientes_3.setFont(new Font("Tahoma", Font.BOLD, 18));
+		btnConsultasDeClientes_3.setBounds(10, 298, 554, 84);
+		contentPanel.add(btnConsultasDeClientes_3);
 	}
 }

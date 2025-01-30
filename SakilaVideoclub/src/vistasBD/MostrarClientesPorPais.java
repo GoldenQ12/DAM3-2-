@@ -69,11 +69,11 @@ public class MostrarClientesPorPais extends JDialog {
 		});
 		btnVolver.setForeground(Color.RED);
 		btnVolver.setFont(new Font("Tahoma", Font.BOLD, 18));
-		btnVolver.setBounds(748, 402, 105, 84);
+		btnVolver.setBounds(693, 402, 160, 84);
 		contentPanel.add(btnVolver);
 		
 		JScrollPane scrollPane = new JScrollPane();
-		scrollPane.setBounds(10, 36, 712, 404);
+		scrollPane.setBounds(10, 36, 648, 404);
 		contentPanel.add(scrollPane);
 		
 		table = new JTable();
@@ -89,7 +89,7 @@ public class MostrarClientesPorPais extends JDialog {
 	        modelo.addColumn("Fecha de creación");
 	        
 	        
-	        for (Customer cust : customer.listarPorPais(1)) {
+	        for (Customer cust : customer.listarPorPais(id)) {
 	                modelo.addRow(new Object[]{
 	                		cust.getCustomer_id(),
 	                		cust.getStore_id(),
