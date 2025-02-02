@@ -7,5 +7,11 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="C:/Users/golde/Downloads/mysql-connector-java-5.1.22-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/golde/Downloads/librerias de reportes/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/golde/Downloads/librerias de reportes/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/golde/Downloads/librerias de reportes/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/golde/Downloads/librerias de reportes/itextpdf-5.5.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/golde/Downloads/librerias de reportes/itext-pdfa-5.5.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/golde/Downloads/librerias de reportes/jasperreports-6.0.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

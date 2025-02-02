@@ -7,10 +7,15 @@ import javax.swing.JDialog;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
+import conexion.Conexion;
 import controladoresBD.CountryController;
 import controladoresBD.StaffController;
 import modelosBD.Country;
 import modelosBD.Staff;
+import net.sf.jasperreports.engine.JRException;
+import net.sf.jasperreports.engine.JasperFillManager;
+import net.sf.jasperreports.engine.JasperPrint;
+import net.sf.jasperreports.view.JasperViewer;
 
 import java.awt.Font;
 import java.awt.Color;
@@ -30,6 +35,8 @@ public class GestionClientes extends JDialog {
 	private static StaffController staff = new StaffController(); 
 	private static CountryController paises = new CountryController();
 	private static JComboBox<String> cbPais;
+	
+	private static Conexion conexion ;
 
 	/**
 	 * Launch the application.
@@ -48,7 +55,7 @@ public class GestionClientes extends JDialog {
 	 * Create the dialog.
 	 */
 	public GestionClientes() {
-		setBounds(100, 100, 886, 696);
+		setBounds(100, 100, 888, 807);
 		getContentPane().setLayout(new BorderLayout());
 		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
 		getContentPane().add(contentPanel, BorderLayout.CENTER);
@@ -70,7 +77,7 @@ public class GestionClientes extends JDialog {
 			});
 			btnVolver.setForeground(Color.RED);
 			btnVolver.setFont(new Font("Tahoma", Font.BOLD, 18));
-			btnVolver.setBounds(673, 562, 187, 84);
+			btnVolver.setBounds(673, 673, 187, 84);
 			contentPanel.add(btnVolver);
 		}
 		{
@@ -211,5 +218,32 @@ public class GestionClientes extends JDialog {
 		btnConsultasDeClientes_3.setFont(new Font("Tahoma", Font.BOLD, 18));
 		btnConsultasDeClientes_3.setBounds(10, 298, 554, 84);
 		contentPanel.add(btnConsultasDeClientes_3);
+		
+		JButton btnConsultasDeClientes_2_1 = new JButton("GENERAR INFORME");
+		btnConsultasDeClientes_2_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JasperPrint jasperPrintWindow = null;
+				 try {
+				 jasperPrintWindow = JasperFillManager.fillReport(
+				 "src/reports/Informe01.jasper",
+				null,conexion.getInstancia().getCon());
+				 } catch (JRException ex) {
+				 // TODO Auto-generated catch block
+				 ex.printStackTrace();
+				 }
+				/*
+				 * Abrimos el visor y le pasamos el informe generado antes.
+				 * Lo abrimos con la opción de 2 parámetros porque el 2º, que hemos puesto a false,
+				 * indica cerrar la aplicación cuando se cierra el visor (por defecto true)
+				 */
+				 JasperViewer jasperViewer = new JasperViewer(jasperPrintWindow,false);
+				jasperViewer.setVisible(true); 
+
+			}
+		});
+		btnConsultasDeClientes_2_1.setForeground(new Color(0, 128, 192));
+		btnConsultasDeClientes_2_1.setFont(new Font("Tahoma", Font.BOLD, 18));
+		btnConsultasDeClientes_2_1.setBounds(10, 498, 554, 84);
+		contentPanel.add(btnConsultasDeClientes_2_1);
 	}
 }
